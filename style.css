@@ -1,0 +1,321 @@
+
+.header-background{
+  background-image: url('images/header_image.jpg');
+  background-size: cover;
+  height: 600px;
+  background-position-y: 20%;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 197px;
+  margin-top: 40px;
+  height: 42px;
+  position: absolute;
+}
+
+.header h2 {
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  bottom: 40px;
+  font-size: 5em;
+}
+
+.col-md-12 {
+  height: 600px;
+}
+
+.domine-font {
+  font-family: domine;
+}
+
+.form {
+  background: url('logos/sheridan-pattern.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.form .title {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.form button, .form input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+
+.form input {
+  color: #000;
+}
+
+.form h3, .form h4, .form h5 {
+
+}
+
+button {
+  background: #ff5000;
+  color: #fff !important;
+}
+
+.join {
+  background: #ff5000;
+  padding: 10px 30px;
+  color: #fff;
+  margin: auto 0;
+}
+
+.left-orange-border {
+  border-left: 3px solid #ff5000;
+  padding-left: 20px;
+}
+
+.dark-blue {
+  color: #003767;
+}
+
+
+.career-options .box .img-box h4 {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin: 0;
+  background: rgba(0,55,103,0.7);
+  width: 100%;
+  padding: 10px;
+  min-height: 58px;
+}
+
+.career-options .box .img-box {
+  position: relative;
+}
+
+.career-options .box p {
+  padding: 20px;
+}
+
+.career-options .box button {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+.career-options .col-md-6 {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+
+.career-options button {
+  padding: 5px 20px;
+}
+
+.career-options h3, .career-options h4 {
+  margin-bottom: 30px;
+}
+
+.what-to-expect {
+  padding: 20px;
+  border: 2px solid #ff5000;
+  margin-top: 40px;
+}
+
+.what-to-expect h2 {
+  text-align: center;
+  color: #003767;
+}
+
+.did-you-know {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.did-you-know h3 {
+  color: #003767;
+  font-size: 18px;
+}
+
+.did-you-know .glyphicon {
+  font-size: 30px;
+  color: #ff5000;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.did-you-know p {
+  border-left: 3px solid #ff5000;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+
+.sign-up-now {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 40px;
+  color: #003767;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-now div {
+  margin-top: 40px;
+}
+
+.testimonial {
+  background: #003767;
+  padding: 40px;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+}
+
+.testimonial-text {
+  color: #f0f0f0;
+}
+
+.testimonial-text h3 {
+  border-left: 3px solid #ff5000;
+  padding-left: 40px;
+  color: #f0f0f0;
+}
+
+.testimonial-text p {
+  padding-left: 40px;
+}
+
+img.img-responsive.testimonial-img {
+    max-width: 180px;
+}
+
+
+.footer {
+  padding: 40px;
+}
+
+.statistics span {
+  position: absolute;
+  right: 0;
+  text-decoration: underline;
+}
+
+html {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+input[type=checkbox] {
+  width: 6px;
+  float: left;
+  margin-right:3px;
+}
+
+span.subscribe {
+  font-size: 8px !important;
+  font-family: arial;
+}
+
+/* -----------------------
+ Media Queries
+________________________*/
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+  .career-options .col-md-6 {
+    padding: 0;
+  }
+
+  .testimonial-img {
+      border-radius: 50%;
+      position: relative;
+      right: 0;
+      margin: auto;
+  }
+
+  .header h2, .form {
+    width: 50%;
+  }
+
+  .box {
+    overflow: hidden;
+  }
+
+  .img-responsive {
+    width: 100%;
+  }
+
+  span.subscribe {
+      font-size: 11px !important;
+      font-family: arial;
+  }
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .form, .header h2 {
+    width: 100%;
+  }
+
+
+
+  .header h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .career-options .col-md-6 {
+    padding: 0;
+  }
+
+  .header h2 {
+    width: 50%;
+  }
+
+  .testimonial-img {
+      border-radius: 50%;
+      position: relative;
+      right: 0;
+      margin: auto;
+  }
+
+  span.subscribe {
+      font-size: 11px !important;
+      font-family: arial;
+  }
+
+  .career-options .box p {
+      padding: 10px;
+  }
+
+  .career-options .box button {
+      margin-bottom: 50px;
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .statistics span {
+    left: 0;
+    margin-top: 20px;
+  }
+
+}
