@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sheridan</title>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <link href="http://fonts.googleapis.com/css?family=Domine" rel="stylesheet" type="text/css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+  <head>
+    <title>Sheridan</title>
+    <link rel="shortcut icon" href="logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Domine" rel="stylesheet" type="text/css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- /* Replace default Google Analytics code below -->
+  <!--   <script>
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-xxxxxxxx-x', 'xxxxxx.com');
+      ga('send', 'pageview');
+    </script> -->
+  </head>
   <body>
     <div class="header-background container-fluid">
       <div class="container header">
         <div class="col-md-12">
           <img class="logo" src="logos/sheridan-logo-correct-blue.png" alt="Sheridan Logo">
           <h2 class="domine-font">ONE year <br> to a great career.</h2>
-          <form class="form">
-            <h3 class="domine-font">Don't miss our <br> Open House.</h3>
-            <h4>Sign Up Now!</h4>
-            <h5>Be the first to know when Open House registration begins!</h5>
-            <div>
-              <div class="title">First name</div>
-              <input type="text" name="firstname" required><br>
-            </div>
-            <div>
-              <div class="title">Last name</div>
-              <input type="text" name="lastname" required><br>
-            </div>
-            <div>
-              <div class="title">Email</div>
-              <input type="email" name="emailAddress" required>
-            </div>
-            <div><input type="checkbox" name="subscribe"> <span class="subscribe" >Yes, I would like to receive other e-communications from Sheridan.</span>
-            </div>
-            <button>Join our Open House mailing list ></button>
-          </form>
+          <div class="to-hide">
+            <form class="form">
+                <h3 class="domine-font">Don't miss our <br> Open House.</h3>
+                <h4>Sign Up Now!</h4>
+                <h5>Be the first to know when Open House registration begins!</h5>
+                <div>
+                  <div class="title">First name</div>
+                  <input type="text" name="firstname" required><br>
+                </div>
+                <div>
+                  <div class="title">Last name</div>
+                  <input type="text" name="lastname" required><br>
+                </div>
+                <div>
+                  <div class="title">Email</div>
+                  <input type="email" name="emailAddress" required>
+                </div>
+                <div><input type="checkbox" name="subscribe"> <span class="subscribe" >Yes, I would like to receive other e-communications from Sheridan.</span>
+                </div>
+                <button class="to-hide">Join our Open House mailing list ></button>
+            </form>
+          </div>
+          <div class="thank-you">Thanks for signing up! <br> Please check your email for a confirmation from the Sheridan Open House mailing list.</div>
         </div>
       </div>
     </div>
